@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Registration Form </title>
+
+</head>
+
+<body>
+
+    <form>
+        <fieldset> 
+            <legend> <span>Student Registration Form</span> </legend>
+        
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="firstName"> First Name </label> </td>
+                    <td> <input type="text" id="firstName" placeholder="Only First Name"></td>
+                </tr>
+                <tr>
+                    <td><label for="lastName">Last Name</label> </td>
+                    <td> <input type="text" id="lastName" placeholder="Only Last Name"></td>
+                </tr>
+                <tr>
+                    <td><label for="mobileNumber">Mobile Number</label> </td>
+                    <td> <input type="number" id="mobileNumber" required autofocus
+                            placeholder="Please Enter with country code"></td>
+                </tr>
+                <tr>
+                    <td><label> Email</label> </td>
+                    <td> <input type="email" required> </td>
+                </tr>
+                <tr>
+                    <td> <label>Password</label> </td>
+                    <td> <input type="password" required> </td>
+                </tr>
+                <tr>
+                    <td> <label>Country</label> </td>
+                    <td> <input type="text" value="India" readonly> </td>
+                </tr>
+                <tr>
+                    <td> <label>Do you have bank account</label> </td>
+                    <td> <input type="text" value="YES" disabled> </td>
+                </tr>
+                <tr>
+                    <td> <label> Date Of Birth </label></td>
+                    <td> <input type="date"> </td>
+                </tr>
+                <tr>
+                    <td><label> Available in Week</label></td>
+                    <td> <input type="week"> </td>
+                </tr>
+                <tr>
+                    <td><label> Preferred Time</label></td>
+                    <td> <input type="time"> </td>
+                </tr>
+                <tr>
+                    <td><label> Select Profile Photo </label></td>
+                    <td> <input type="file"> </td>
+                </tr>
+                <tr>
+                    <td><label> Select Certificate</label></td>
+                    <td> <input type="file" multiple> </td>
+                </tr>
+                <tr>
+                    <td> <label> Select Degree </label></td>
+                    <td> 
+                        <select>
+                            <option> BE </option>
+                            <option> BCA </option>
+                            <option> MCA </option>
+                            <option> MBA </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label> Select Degree </label></td>
+                    <td>
+                        <select>
+                            <optgroup label="Bachelor Of Engineering">
+                                <option> Computer Science</option>
+                                <option> IT</option>
+                                <option> Mechanical </option>
+                                <option> civil </option>
+                            </optgroup>
+                            <optgroup label=" Master of Computer Application">
+                                <option> MCA Science</option>
+                                <option> MCA Commerce</option>
+
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label>Select Gender</label> </td>
+                    <td> <input type="radio" name="gender">
+                         <label>Male</label>
+                         <input type="radio"name="gender">
+                         <label>Female</label>
+                         <input type="radio"name="gender">
+                         <label>Others</label>
+                   </td>
+                </tr>
+                <tr>
+                    <td><label> Please Select Trainings </label></td>
+                    <td>
+                        <input type="checkbox"> 
+                        <label> Angular </label>
+
+                        <input type="checkbox"> 
+                        <label> Java </label>
+
+                        <input type="checkbox"> 
+                        <label> .Net </label>
+
+                        <input type="checkbox"> 
+                        <label> DevOps </label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> <label>Address</label> </td>
+                    <td> <textarea cols="30" rows="7"> </textarea> </td>
+                </tr>
+                <tr>
+                    <td> <input type="Submit"> </td>
+                    <td> <input type="Reset"> </td>
+                </tr>
+            </tbody>
+        </table>
+    </fieldset>
+    </form>
+</body>
+
+</html>
